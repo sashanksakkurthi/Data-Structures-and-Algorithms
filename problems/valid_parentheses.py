@@ -35,9 +35,9 @@ def valid_parentheses(s: str):
                 return False
             else:
                 parentheses.pop()
-        if parentheses == []:
-            return True
-        else: return False
+    if parentheses == []:
+        return True
+    else: return False
     
 
 print(valid_parentheses("["))
