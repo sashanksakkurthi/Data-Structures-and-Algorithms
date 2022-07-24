@@ -18,15 +18,11 @@
 
 def strStr(haystack: str, needle: str) -> int:
 	if len(haystack) == 0:
-		return -1
-	
+		return -1	
 	try:
 		result = haystack.index(needle)
 		return result
 	except:
 		return -1
-
-
-
 
 print(strStr("aaaaa","bba"))
